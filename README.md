@@ -4,6 +4,12 @@
 
 # MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH
 
+
+
+![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/04/06/17-52-26-854b12e2d199f4c6a66172bc111a85a7-WX20220406-175136-2x-efb75879.png)
+
+![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/04/06/18-11-05-e2816c81bb1a5b2020f178457acb34ae-Snipaste_2022-04-06_18-10-34-93140d07.png)
+
 # 硬件列表
 
 | 项目   | 名称                          | 价格   |
@@ -23,15 +29,15 @@
 
 # 说明
 
-USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个USB2.0接口, 无线网卡蓝牙和WiFi都是原生驱动, 独显RX590 原生驱动
+USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个USB2.0接口, 无线网卡蓝牙和WiFi都是原生驱动, 独显`RX590` 原生驱动
 
-如果你需要自己重新定制, 把这两个驱动取消或删除, 打开XhciPortLimit选项, 重启后进行自己的USB定制
+如果你需要自己重新定制, 把这两个驱动取消或删除, 打开`XhciPortLimit`选项, 重启后进行自己的USB定制
 
 ![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/03/23/22-17-31-669316485e6c5aaaff5c21d8883264d8-1648032321679-55b9c6e9.jpg?token=ABPNKGF7UMZQPA3AZUQ4PLLCHMWD2)
 
 # BIOS配置
 
-[升级]([B460](https://cn.msi.com/Motherboard/MAG-B460M-MORTAR-WIFI/support)) 主板的BIOS到最新版本后, 只需要打开`D.T.M`选项即可, 其余大部分设置都不需要设置, 如果你的内存支持高频率的话, 可以打开BIOS对内存应用的`XMP`功能
+[升级]([B460](https://cn.msi.com/Motherboard/MAG-B460M-MORTAR-WIFI/support)) 主板的BIOS到最新版本后, 只需要打开`D.T.M`选项即可, 其余大部分设置都不需要设置, 如果你的内存支持高频率的话, 可以打开`BIOS`对内存应用的`XMP`功能
 
 # 跑分
 
@@ -45,7 +51,19 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 ![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/03/24/01-15-50-59d4322949e9b51a0a14792a2a6cf51d-Snipaste_2022-03-23_22-28-49-5e7f3382.png)
 
-# 安装过程
+
+
+### Metal
+
+![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/04/06/17-26-50-e674c4ce35389a3341d778257c7b418f-Snipaste_2022-04-06_17-26-00-586bc148.png)
+
+
+
+# 截图
+
+见仓库[文件夹](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/tree/master/%E6%88%AA%E5%9B%BE)
+
+
 
 ## 工具
 
@@ -59,15 +77,15 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 ## 第一步
 
-下载DMG[镜像](https://www.aliyundrive.com/s/EvVJ4tqzG2Y)文件, 改后缀名PDF为DMG, 然后使用`balenaEtcher`写入到你的U盘中, 注意DMG文件得是包含分区描述信息的, 写入完成后U盘有两个分区, 一个EFI分区和系统数据分区, 使用工具挂载EFI分区后, 在EFI分区创建一个EFI文件夹, 接着把仓库的两个文件夹复制到EFI文件夹中, 如果镜像自带其他的EFI文件夹, 直接替换旧的EFI文件夹即可
+你可以自己使用[gibMacOS](https://github.com/corpnewt/gibMacOS)下载镜像文件, 自己制作U盘引导盘, 也可以从我这里下载DMG[镜像]()文件, 改后缀名PDF为DMG, 然后使用`balenaEtcher`写入到你的U盘中, 注意DMG文件得是包含分区描述信息的, 写入完成后U盘有两个分区, 一个`EFI`分区和系统数据分区, 使用工具挂载`EFI`分区后, 在`EFI`分区创建一个`EFI`文件夹, 接着把仓库的两个文件夹复制到`EFI`文件夹中, 如果镜像自带其他的`EFI`文件夹, 直接替换旧的`EFI`文件夹即可, 替换成功就可以重启进行引导和安装了
 
 
 
 ## 引导
 
-重启, 一直重复按F12, 调出引导菜单, 选择从已经写入系统和引导的U盘或者移动硬盘引导, 如果可以正常显示opencore的菜单, 说明引导成功, 选择install macOS xxx 等待引导
+重启, 一直重复按F12, 调出引导菜单, 选择从已经写入系统和引导的U盘或者移动硬盘引导, 如果可以正常显示`opencore`的菜单, 说明引导成功, 选择install macOS xxx 等待引导
 
-接着会显示安装界面, 首先格式化硬盘, 我们打开左上角的菜单, 选择硬盘工具, 找到你需要格式化的硬盘, 选择抹掉, 名称可以输入MacOS或者其他好记忆的名字, 格式选择APFS, 分区图选择GUID分区图, 然后抹掉成功后, 退出磁盘工具, 回到安装流程, 选择格式化后的硬盘, 选中它, 直接点击下一步安装, 没有格式化过的硬盘无法安装MacOS
+接着会显示安装界面, 首先格式化硬盘, 我们打开左上角的菜单, 选择硬盘工具, 找到你需要格式化的硬盘, 选择抹掉, 名称可以输入MacOS或者其他好记忆的名字, 格式选择`APFS`, 分区图选择`GUID`分区图, 然后抹掉成功后, 退出磁盘工具, 回到安装流程, 选择格式化后的硬盘, 选中它, 直接点击下一步安装, 没有格式化过的硬盘无法安装MacOS
 
 > ⚠️ 格式化后, 会丢失这个硬盘的数据, 记得你要确保这个硬盘是闲置的, 没有数据的, 或者已经备份这个需要被格式化的硬盘的数据⚠️
 
@@ -75,13 +93,13 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 ## 设置
 
-静待拷贝文件成功, 接着我们重启, 还是按F12调出引导菜单, 选择你的U盘/移动硬盘引导opencore, 打开opencore菜单后, 选择你上一步, 格式化的硬盘的名字的那个选项, 正式启动MacOS, 等待启动, 显示界面后, 设置新系统的设置和选项, 你也可以在这一步选择从TimeMachine或者其他Mac恢复你的数据
+静待拷贝文件成功, 接着我们重启, 还是按F12调出引导菜单, 选择你的U盘/移动硬盘引导`opencore`, 打开`opencore`菜单后, 选择你上一步, 格式化的硬盘的名字的那个选项, 正式启动MacOS, 等待启动, 显示界面后, 设置新系统的设置和选项, 你也可以在这一步选择从`TimeMachine`或者其他Mac恢复你的数据
 
 
 
 ## 后续
 
-启动成功后, 说明MacOS已经安装成功, 我们还需要一些步骤配置一下, 安装opencore configuration app, 接着使用app挂载安装了MacOS的这块硬盘的EFI分区, 然后创建一个EFI文件夹, 如果有了就不需要创建了, 然后拷贝仓库opencore和驱动文件到这个EFI文件夹中
+启动成功后, 说明MacOS已经安装成功, 我们还需要一些步骤配置一下, 安装opencore configuration app, 接着使用app挂载安装了MacOS的这块硬盘的`EFI`分区, 然后创建一个`EFI`文件夹, 如果有了就不需要创建了, 然后拷贝仓库`opencore`和驱动文件到这个`EFI`文件夹中
 
 
 
@@ -89,15 +107,15 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 ## config.plist
 
-默认文件为仅有核显情况下, 驱动核显, 不包括独显的一些优化和设置
+默认文件为仅有核显情况下, 驱动核显, 不包括独显的一些优化和驱动设置
 
 ## config.550.plist
 
-核显作为硬件加速功能, 驱动独显, 并且视频信号输出通过独显, 核显无法作为视频信号输出, 使用的话, 记得改名成config.plist
+核显作为硬件加速功能, 驱动**vega56/64**系列,  并且视频信号输出通过独显, 核显无法作为视频信号输出, 使用的话, 记得改名成config.plist
 
 ### config.5500.plist
 
-驱动新款的5500xt + 独显的配置, 因为本人没有这么新的显卡, 只是按照理论上驱动的配置去添加了配置文件, 还有待测试
+驱动新款的**5500xt** + 独显的配置, 因为本人没有这么新的显卡, 只是按照理论上驱动的配置去添加了配置文件, 还有待测试, 视频信号输出通过独显, 核显无法作为视频信号输出, 使用的话, 记得改名成config.plist
 
 
 
@@ -107,9 +125,15 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 
 
+![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/04/06/18-08-04-1405ff723871146b1f4282c8ff73db44-Snipaste_2022-04-06_18-07-09-fe7edb3d.png)
+
+
+
 ## 注意
 
 - 只驱动核显的话, 优先使用主板的DP接口而不是HDMI接口, 没有对HDMI进行一些好的配置, HDMI可能会产生花屏问题
+
+- 这块主板HDMI接口不支持4K/60Hz, 只有4K/30Hz, 只有DP接口支持
 
 - 显示器建议使用4K分辨率的显示器, 默认会开启HIDPI
 
@@ -153,7 +177,7 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 * https://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1924348&highlight=Monterey%2B12.3
 
-* 
+* https://github.com/mrdonkey3/hackintosh-oc-msi-b460m-mortar-i7-10700-big-sur
 
 # 感谢
 
@@ -165,6 +189,10 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 * [balenaEtcher](https://www.balena.io/etcher/)
 
+* [gibMacOS]([GitHub - corpnewt/gibMacOS: Py2/py3 script that can download macOS components direct from Apple](https://github.com/corpnewt/gibMacOS))
+
 * [Lilu](https://github.com/acidanthera/Lilu) and [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
+
+* [Hackintool](https://github.com/headkaze/Hackintool)
 
 * [PcBeta](https://www.pcbeta.com/)
