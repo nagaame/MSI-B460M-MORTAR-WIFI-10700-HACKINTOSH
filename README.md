@@ -9,7 +9,7 @@
 
 # MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH
 
-![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/04/06/17-52-26-854b12e2d199f4c6a66172bc111a85a7-WX20220406-175136-2x-efb75879.png)
+![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/04/06/21-29-16-81ca60803455857a7f87937154309d4a-info-d553c5bc.png)
 
 ![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/04/06/18-11-05-e2816c81bb1a5b2020f178457acb34ae-Snipaste_2022-04-06_18-10-34-93140d07.png)
 
@@ -38,13 +38,13 @@
 
 ### GPU
 
-#### OpenCL
+#### OpenCL(rx590)
 
 ![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/03/24/01-15-50-59d4322949e9b51a0a14792a2a6cf51d-Snipaste_2022-03-23_22-28-49-5e7f3382.png)
 
-#### Metal
+#### Metal(rx590)
 
-![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/04/06/17-26-50-e674c4ce35389a3341d778257c7b418f-Snipaste_2022-04-06_17-26-00-586bc148.png)
+![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/04/06/21-29-35-13b86a09c7c443335c8d4bb114d6c383-metal-73d46310.png)
 
 ## 截图
 
@@ -170,7 +170,7 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 * https://github.com/mrdonkey3/hackintosh-oc-msi-b460m-mortar-i7-10700-big-sur
 
-## 感谢
+## Credits
 
 * [Apple](https://www.apple.com.cn/)
 
