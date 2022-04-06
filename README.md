@@ -189,7 +189,7 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 * [balenaEtcher](https://www.balena.io/etcher/)
 
-* [gibMacOS]([GitHub - corpnewt/gibMacOS: Py2/py3 script that can download macOS components direct from Apple](https://github.com/corpnewt/gibMacOS))
+* [gibMacOS](https://github.com/corpnewt/gibMacOS)
 
 * [Lilu](https://github.com/acidanthera/Lilu) and [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
 
