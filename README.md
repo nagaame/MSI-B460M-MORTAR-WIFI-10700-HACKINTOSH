@@ -48,7 +48,7 @@
 
 ## 截图
 
-见仓库[文件夹](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/tree/master/%E6%88%AA%E5%9B%BE)
+见仓库[文件夹](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/tree/master/screenshot)
 
 ## 安装流程
 
