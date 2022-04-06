@@ -1,9 +1,11 @@
 [![OpenCore Version](https://img.shields.io/badge/OpenCore-0.7.9-green.svg)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)
-[![Status](https://img.shields.io/badge/Status-work--on--my--machine-blue.svg)](project_link)
+[![Status](https://img.shields.io/badge/Status-work--on--my--machine-blue.svg)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)
 [![Platform](https://img.shields.io/badge/platform-MacOS10/12-red.svg?logo=apple)](https://developer.apple.com/macos)
 ![GitLab tag (latest by date)](https://img.shields.io/gitlab/v/tag/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)
 ![GitHub issues](https://img.shields.io/github/issues-raw/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)
 [![GitHub all releases](https://img.shields.io/github/downloads/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/total.svg)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/releases/latest)
+[![Telegram](https://img.shields.io/badge/-telegram-red?color=blue&logo=telegram)](https://t.me/sonny_kirby)
+[![Ghost](https://img.shields.io/badge/blog-@kanda-black.svg)](https://kanda.me)
 
 # MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH
 
