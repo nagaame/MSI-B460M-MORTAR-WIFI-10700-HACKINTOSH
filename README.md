@@ -148,7 +148,7 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 - [x] USB定制(USB2/USB3)
 
-- [x] 核显
+- [x] 核显(10th CPU, 不支持11th/12th CPU)
 
 - [x] 独显
 
@@ -156,11 +156,11 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 - [x] WiFi/Bluetooth(需要免驱WiFi/Bluetooth无线网卡)
 
-- [x] AirDrop
+- [x] AirDrop(需要免驱WiFi/Bluetooth无线网卡)
 
-- [x] 接力和随航
+- [x] 接力和随航(需要免驱WiFi/Bluetooth无线网卡)
 
-- [x] 通用控制(需要12.3 version系统)
+- [x] 通用控制(需要12.3+ version系统)
 
 - [x] FaceTime/iMessage/App Store(需要注入三码)
 
