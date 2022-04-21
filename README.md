@@ -1,11 +1,11 @@
 [![OpenCore Version](https://img.shields.io/badge/OpenCore-0.7.9-green.svg)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)
 [![Status](https://img.shields.io/badge/Status-work--on--my--machine-blue.svg)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)
-[![Platform](https://img.shields.io/badge/platform-MacOS10/12-red.svg?logo=apple)](https://developer.apple.com/macos)
+[![Platform](https://img.shields.io/badge/platform-MacOS11/12-red.svg?logo=apple)](https://developer.apple.com/macos)
 [![GitLab tag (latest by date)](https://img.shields.io/github/v/tag/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/tags)
 [![GitHub issues](https://img.shields.io/github/issues-raw/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/issues)
 [![GitHub all releases](https://img.shields.io/github/downloads/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/total.svg)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/releases/latest)
 [![Telegram](https://img.shields.io/badge/-telegram-red?color=blue&logo=telegram)](https://t.me/sonny_kirby)
-[![Ghost](https://img.shields.io/badge/blog-@kanda-black.svg)](https://kanda.me)
+[![Ghost](https://img.shields.io/badge/-https://kanda.me-black.svg?logo=ghost)](https://kanda.me)
 
 # MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH
 
@@ -141,6 +141,8 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 - 修改`7C436110-AB2A-4BBB-A880-FE41995C9F82`的`boot-args`参数去掉`-v`可以关闭啰嗦模式, 记得每个参数需要空格分隔
 
 - MacOS对2.5Gbps的网卡支持似乎有兼容问题, 建议手动设置到千兆速率模式
+
+- Intel 无线网卡驱动见[itlwm](https://github.com/OpenIntelWireless/itlwm)
 
 ## 驱动情况
 
