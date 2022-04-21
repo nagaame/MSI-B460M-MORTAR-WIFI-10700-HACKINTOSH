@@ -27,7 +27,7 @@
 | 散热器  | 追风者 12DX 黑白版                | 249  |
 | 机箱风扇 | 追风者 12cm RGB * 3            | 129  |
 | 机箱   | 追风者 MATX 410                | 449  |
-| 无线网卡 | BCM94360CS2 PCIE            | 200  |
+| 无线网卡 | BCM94360CS2 PCIE(免驱)            | 200  |
 | 独立显卡 | 蓝宝石 RX590                   | 1500 |
 
 ## 跑分
@@ -48,7 +48,7 @@
 
 ## 截图
 
-见仓库[文件夹](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/tree/master/screenshot)
+驱动情况截图见[文件夹](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/tree/master/screenshot)
 
 ## 安装流程
 
@@ -140,9 +140,9 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 - 修改`7C436110-AB2A-4BBB-A880-FE41995C9F82`的`boot-args`参数去掉`-v`可以关闭啰嗦模式, 记得每个参数需要空格分隔
 
-- MacOS对2.5Gbps的网卡支持似乎有兼容问题, 建议手动设置到千兆速率模式
+- 驱动对主板的2.5Gbps有线网卡支持似乎有兼容问题, 有线连接建议手动修改成1000Mbps速率
 
-- Intel 无线网卡驱动见[itlwm](https://github.com/OpenIntelWireless/itlwm)
+- 不包括驱动主板自带的Intel无线网卡, 如需驱动见[itlwm](https://github.com/OpenIntelWireless/itlwm)
 
 ## 驱动情况
 
@@ -152,7 +152,7 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 - [x] 核显(10th CPU, 不支持11th/12th CPU)
 
-- [x] 独显
+- [x] 独显(rx550/580/590)
 
 - [x] 2.5Gbps板载以太网卡
 
