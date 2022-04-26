@@ -1,5 +1,5 @@
 [![OpenCore Version](https://img.shields.io/badge/OpenCore-0.7.9-green.svg)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)
-[![status](https://img.shields.io/badge/Status-work--on--my--machine-blue.svg)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)
+[![status](https://img.shields.io/badge/status-work--on--my--machine-blue.svg)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)
 [![platform](https://img.shields.io/badge/platform-MacOS11/12-red.svg?logo=apple)](https://developer.apple.com/macos)
 [![GitLab tag (latest by date)](https://img.shields.io/github/v/tag/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/tags)
 [![GitHub issues](https://img.shields.io/github/issues-raw/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/issues)
