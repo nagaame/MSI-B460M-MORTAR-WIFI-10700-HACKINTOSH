@@ -835,7 +835,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v agdpmod=pikera igfxfw=2 alcid=11 shikigva=80 npci=0x3000 igfxrpsc=1 igfxonln=1</string>
+				<string>-v agdpmod=pikera igfxfw=2 alcid=11 shikigva=80 npci=0x3000 igfxrpsc=1 igfxonln=1 darkwake=2</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>

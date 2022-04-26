@@ -1,6 +1,6 @@
 [![OpenCore Version](https://img.shields.io/badge/OpenCore-0.7.9-green.svg)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)
-[![Status](https://img.shields.io/badge/Status-work--on--my--machine-blue.svg)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)
-[![Platform](https://img.shields.io/badge/platform-MacOS11/12-red.svg?logo=apple)](https://developer.apple.com/macos)
+[![status](https://img.shields.io/badge/Status-work--on--my--machine-blue.svg)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)
+[![platform](https://img.shields.io/badge/platform-MacOS11/12-red.svg?logo=apple)](https://developer.apple.com/macos)
 [![GitLab tag (latest by date)](https://img.shields.io/github/v/tag/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/tags)
 [![GitHub issues](https://img.shields.io/github/issues-raw/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/issues)
 [![GitHub all releases](https://img.shields.io/github/downloads/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/total.svg)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/releases/latest)
@@ -27,8 +27,9 @@
 | 散热器  | 追风者 12DX 黑白版                | 249  |
 | 机箱风扇 | 追风者 12cm RGB * 3            | 129  |
 | 机箱   | 追风者 MATX 410                | 449  |
-| 无线网卡 | BCM94360CS2 PCIE(免驱)            | 200  |
+| 无线网卡 | BCM94360CS2 PCIE(免驱)        | 200  |
 | 独立显卡 | 蓝宝石 RX590                   | 1500 |
+
 
 ## 跑分
 
