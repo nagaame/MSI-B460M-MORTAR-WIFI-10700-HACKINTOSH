@@ -11,8 +11,6 @@
 
 ![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/04/06/21-29-16-81ca60803455857a7f87937154309d4a-info-d553c5bc.png)
 
-![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/04/06/18-11-05-e2816c81bb1a5b2020f178457acb34ae-Snipaste_2022-04-06_18-10-34-93140d07.png)
-
 ## 硬件列表
 
 | 项目   | 名称                          | 价格   |
