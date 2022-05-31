@@ -119,36 +119,6 @@
 				<key>TableSignature</key>
 				<data>RFNEVA==</data>
 			</dict>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>GPRW to XPRW</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>R1BSVwI=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>WFBSVwI=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -231,6 +201,19 @@
 				<data>AwDImw==</data>
 				<key>device-id</key>
 				<data>yJsAAA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>@0,name</key>
+				<string>AYT,Orinoco</string>
+				<key>@1,name</key>
+				<string>AYT,Orinoco</string>
+				<key>@2,name</key>
+				<string>AYT,Orinoco</string>
+				<key>@3,name</key>
+				<string>AYT,Orinoco</string>
+				<key>@4,name</key>
+				<string>AYT,Orinoco</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -323,6 +306,42 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/NVMeFix</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>IntelMausi.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelMausi</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>RadeonBoost.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -478,13 +497,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AGPMInjector.kext</string>
+				<string>RTCMemoryFixup.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
-				<string></string>
+				<string>Contents/MacOS/RTCMemoryFixup</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -585,6 +604,8 @@
 			<false/>
 			<key>CustomSMBIOSGuid</key>
 			<false/>
+			<key>CustomPciSerialDevice</key>
+			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
 			<key>DisableLinkeditJettison</key>
@@ -594,6 +615,8 @@
 			<key>ExtendBTFeatureFlags</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
+			<false/>
+			<key>ForceAquantiaEthernet</key>
 			<false/>
 			<key>ForceSecureBootScheme</key>
 			<false/>
@@ -606,11 +629,11 @@
 			<key>PanicNoKextDump</key>
 			<false/>
 			<key>PowerTimeoutKernelPanic</key>
-			<false/>
+			<true/>
 			<key>ProvideCurrentCpuInfo</key>
 			<false/>
 			<key>SetApfsTrimTimeout</key>
-			<integer>-1</integer>
+			<integer>999</integer>
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
@@ -675,8 +698,6 @@
 			<integer>2151678018</integer>
 			<key>LogModules</key>
 			<string>*</string>
-			<key>SerialInit</key>
-			<false/>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
@@ -835,7 +856,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v agdpmod=pikera igfxfw=2 alcid=11 shikigva=80 npci=0x3000 igfxrpsc=1 igfxonln=1 darkwake=2</string>
+				<string>-v igfxfw=2 agdpmod=pikera alcid=11 shikigva=80 npci=0x3000 igfxrpsc=1 igfxonln=1 darkwake=2 -disablegfxfirmware</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
