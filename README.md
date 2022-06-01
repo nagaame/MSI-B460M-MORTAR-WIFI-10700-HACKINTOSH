@@ -151,6 +151,8 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 - 不包括驱动主板自带的Intel无线网卡, 如需驱动见[itlwm](https://github.com/OpenIntelWireless/itlwm)
 
+- RX590显卡用户如果发现驱动异常, 尝试移除`RadeonBoost.kext`驱动
+
 ## 驱动情况
 
 - [x] 睡眠唤醒
