@@ -7,7 +7,7 @@
 
 # MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH
 
-![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/04/06/21-29-16-81ca60803455857a7f87937154309d4a-info-d553c5bc.png)
+![](https://cdn.kanda.me/images/2022/06/10/0/aff5bb138c5e2084bf093952936af64aff04d225.png)
 
 ## 硬件列表
 
@@ -41,17 +41,17 @@
 
 ### CPU
 
-![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/03/24/01-06-35-f9e31c6136e438a2850d26e11bc4def9-Snipaste_2022-03-23_22-25-11-6cc5d7d1.png?token=ABPNKGCCYIPHJ35RDV5M6RLCHNJ52)
+![](https://cdn.kanda.me/images/2022/06/10/0/6b2dbe16b2296a23efd68c17dd81e2c2f1a9611a.png)
 
 ### GPU
 
 #### OpenCL(rx590)
 
-![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/03/24/01-15-50-59d4322949e9b51a0a14792a2a6cf51d-Snipaste_2022-03-23_22-28-49-5e7f3382.png)
+![](https://cdn.kanda.me/images/2022/06/10/0/a21c5ca7658e63f110eddcf8fa7ebff21970bf45.png)
 
 #### Metal(rx590)
 
-![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/04/06/21-29-35-13b86a09c7c443335c8d4bb114d6c383-metal-73d46310.png)
+![](https://cdn.kanda.me/images/2022/06/10/0/ce9be6793c2396aa96eaa12438125a093db9443b.png)
 
 ## 截图
 
@@ -101,7 +101,7 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 如需定制, 建议使用[USBToolBox](https://github.com/USBToolBox/tool)进行USB定制
 
-![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/03/23/22-17-31-669316485e6c5aaaff5c21d8883264d8-1648032321679-55b9c6e9.jpg?token=ABPNKGF7UMZQPA3AZUQ4PLLCHMWD2)
+![](https://cdn.kanda.me/images/2022/06/10/0/a7d43fea1cca89088abdb35808851100864a0780.jpeg)
 
 ### BIOS配置
 
@@ -111,7 +111,7 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 驱动文件说明, 请参考[这里](https://github.com/maemual/MSI-B460M-10700-5500XT#%E7%AC%AC%E4%B8%89%E6%AD%A5%E6%94%B6%E9%9B%86%E9%A9%B1%E5%8A%A8%E6%96%87%E4%BB%B6)
 
-![](https://raw.githubusercontent.com/nagaame/images/master/img/fix-dir/2022/04/06/18-08-04-1405ff723871146b1f4282c8ff73db44-Snipaste_2022-04-06_18-07-09-fe7edb3d.png)
+![](https://cdn.kanda.me/images/2022/06/10/0/de1bfa6f378a4945fdf82b187c360edab578be42.png)
 
 ### 配置文件
 
