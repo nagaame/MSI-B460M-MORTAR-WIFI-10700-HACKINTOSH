@@ -42,7 +42,7 @@
 
 ### CPU
 
-![](https://cdn.kanda.me/images/2022/06/10/0/6b2dbe16b2296a23efd68c17dd81e2c2f1a9611a.png)
+![CPU](https://cdn.kanda.me/images/2022/06/10/0/6b2dbe16b2296a23efd68c17dd81e2c2f1a9611a.png)
 
 ### GPU
 
