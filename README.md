@@ -1,5 +1,5 @@
-[![OpenCore Version](https://img.shields.io/badge/OpenCore-0.8.4-green.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![platform](https://img.shields.io/badge/platform-MacOS11/12-red.svg?logo=apple)](https://developer.apple.com/macos)
+[![OpenCore Version](https://img.shields.io/badge/OpenCore-0.8.6-green.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![platform](https://img.shields.io/badge/platform-MacOS11/12/13-red.svg?logo=apple)](https://developer.apple.com/macos)
 [![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/tags)
 [![GitHub issues](https://img.shields.io/github/issues-raw/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/issues)
 [![GitHub all releases](https://img.shields.io/github/downloads/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/total.svg)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/releases/latest)
@@ -7,7 +7,7 @@
 
 # MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH
 
-![MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH](https://cdn.kanda.me/images/2022/06/10/0/aff5bb138c5e2084bf093952936af64aff04d225.png "MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH")
+![MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH](https://cdn.kanda.me/images/2022/06/10/0/aff5bb138c5e2084bf093952936af64aff04d225.png)
 
 ## 硬件列表
 
@@ -38,6 +38,7 @@
 | 0.0.4 | 12.3.1 | 0.8.0    |
 | 0.0.5 | 12.4   | 0.8.0    |
 | 0.0.6 | 12.6   | 0.8.4    |
+| 0.0.7 | 13.0.1 | 0.8.6    |
 
 ## 跑分
 
