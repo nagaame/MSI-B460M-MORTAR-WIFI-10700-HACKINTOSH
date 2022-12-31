@@ -7,6 +7,8 @@
 
 # MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH
 
+### 📂The repository is Archived.
+
 ![MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH](https://cdn.kanda.me/images/2022/06/10/0/aff5bb138c5e2084bf093952936af64aff04d225.png)
 
 ## 硬件列表
