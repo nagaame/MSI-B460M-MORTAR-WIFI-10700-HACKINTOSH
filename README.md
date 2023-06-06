@@ -4,7 +4,7 @@
 [![GitHub issues](https://img.shields.io/github/issues-raw/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/issues)
 [![GitHub all releases](https://img.shields.io/github/downloads/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/total.svg)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/releases/latest)
 [![Telegram](https://img.shields.io/badge/-telegram-red?color=blue&logo=telegram)](https://t.me/sonny_kirby)
-[![English](https://img.shields.io/badge/En-English-blue)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/blob/master/README_EN.md)
+[![English](https://img.shields.io/badge/En-English-blue)](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/blob/master/README_EN.MD)
 
 # MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH
 
