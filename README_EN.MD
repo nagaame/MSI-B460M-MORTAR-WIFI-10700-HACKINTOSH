@@ -11,21 +11,21 @@
 
 ## Hardware list.
 
-| 项目   | 名称                          | 价格   |
+| Item   | Name                          | Price   |
 | ---- | --------------------------- | ---- |
 | CPU  | Intel 10th CORE 10700       | 2559 |
-| 主板   | 微星迫击炮 MAG B460M MORTAR WiFi |      |
-| 内存   | 芝奇 幻光戟 16GB * 2 DDR4 3200   | 800  |
-| 显卡   | 核显 HD630                    | 0    |
-| 显示器  | LG 27UL850 (4K)             | 2800 |
-| 硬盘   | 三星 970EVO Plus SSD 1TB      | 1019 |
-| 硬盘2  | Intel 760P SSD              | 0    |
-| 电源   | 安钛克 NE650W                  | 469  |
-| 散热器  | 追风者 12DX 黑白版                | 249  |
-| 机箱风扇 | 追风者 12cm RGB * 3            | 129  |
-| 机箱   | 追风者 MATX 410                | 449  |
-| 无线网卡 | BCM94360CS2 PCIE(免驱)        | 200  |
-| 独立显卡 | 蓝宝石 RX590                   | 1500 |
+| Motherboard   | MSI Mortor MAG B460M MORTAR WiFi |      |
+| Memory   | G.SKILL Z RGB 16GB * 2 DDR4 3200   | 800  |
+| IGCard   | IG HD630                    | 0    |
+| Display  | LG 27UL850 (4K)             | 2800 |
+| SSD   | Samsung 970EVO Plus SSD 1TB      | 1019 |
+| SSD 2  | Intel 760P SSD              | 0    |
+| Power   | Antec NE650W                  | 469  |
+| Cooler  | Phanteks 12DX Black white version   | 249  |
+| Case Fan | Phanteks 12cm RGB * 3            | 129  |
+| Case   | Phanteks MATX 410                | 449  |
+| WiFi Card | BCM94360CS2 PCIE(Native support)        | 200  |
+| Graphics Card | SAPPHIRE RX590                   | 1500 |
 
 ## 
 
@@ -60,21 +60,21 @@
 
 Please refer to the [folder](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/tree/master/screenshot) for a screenshot of the driver status.
 
-## 安装流程
+## Installation
 
-### 工具
+### Tools
 
 * opencore configuration
 
 * balenaEtcher
 
-* U盘/移动硬盘
+* USB drive/Portable hard drive.
 
 * text editor
 
-* 良好的上网环境
+* Network
 
-### 第一步
+### First step
 
 You can use `gibMacOS` to download the image file and create a bootable USB drive, or alternatively you can download the DMG image file from my shared Alibaba Cloud Drive [here](https://www.aliyundrive.com/s/pWXnWL2EPkf). Make sure to change the file extension from PDF to DMG before using `balenaEtcher` to write the file to your USB drive. Also, please note that the DMG file should contain partition descriptor information, and once the writing process is complete, your USB drive should have two partitions: an `EFI` partition and a data partition for the system. After mounting the `EFI` partition using a tool, create an `EFI` folder in the partition, then copy the two folders from the repository into the `EFI` folder. If the image comes with other `EFI` folders, simply replace the old `EFI` folder with the new one. Once the replacement is successful, you can restart your device to begin the booting and installation process.
 
