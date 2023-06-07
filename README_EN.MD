@@ -96,7 +96,7 @@ If the system has successfully started up, it means that `MacOS` has been instal
 
 ## Explanation
 
-### USB customization.
+### USB Customization
 
 USB customization has already been configured, so there is no need to customize the USB again. The two USB 2.0 ports on the back of the motherboard have been disabled. The wireless network card's Bluetooth and WiFi functions are both natively supported, and the dedicated graphics card `RX590` is also natively supported.
 
@@ -106,7 +106,7 @@ If you need to customize your USB, it is recommended that you use [USBToolBox](h
 
 ![](https://cdn.kanda.me/images/2022/06/10/0/a7d43fea1cca89088abdb35808851100864a0780.jpeg)
 
-### BIOS configuration.
+### BIOS Configuration
 
 After [upgrading](https://cn.msi.com/Motherboard/MAG-B460M-MORTAR-WIFI/support) your motherboard's BIOS to the latest version, you only need to enable the D.T.M option. Most of the other settings do not need to be changed. If your memory supports high frequency, you can also enable the XMP feature in the BIOS to apply it to your memory.
 
