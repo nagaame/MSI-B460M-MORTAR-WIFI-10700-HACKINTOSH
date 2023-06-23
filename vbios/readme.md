@@ -6,4 +6,4 @@ AMD rx580/590显卡可以刷入这个BIOS, 达到完全驱动的目的, 刷bios�
 
 刷机参考:
 
-![](https://cdn.kanda.me/images/2022/05/31/0/c15421b195a6effd7f63f4791477b8d3b1e9ffa5.png)
+![](https://cdn.kuokuo.io/images/2022/05/31/0/c15421b195a6effd7f63f4791477b8d3b1e9ffa5.png)
