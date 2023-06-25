@@ -7,9 +7,9 @@
 
 # MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH
 
-## [ENGLISH](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/blob/master/README_EN.MD)
+## [ENGLISH](https://github.com/nagaame/MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH/blob/master/README_EN.md)
 
-![MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH](https://cdn.kuokuo.io/images/2022/06/10/0/aff5bb138c5e2084bf093952936af64aff04d225.png)
+![MSI-B460M-MORTAR-WIFI-10700-HACKINTOSH](./images/aff5bb138c5e2084bf093952936af64aff04d225.png)
 
 ## 硬件列表
 
@@ -46,17 +46,17 @@
 
 ### CPU
 
-![](https://cdn.kuokuo.io/images/2022/06/10/0/6b2dbe16b2296a23efd68c17dd81e2c2f1a9611a.png)
+![](./images/6b2dbe16b2296a23efd68c17dd81e2c2f1a9611a.png)
 
 ### GPU
 
 #### OpenCL(rx590)
 
-![](https://cdn.kuokuo.io/images/2022/06/10/0/a21c5ca7658e63f110eddcf8fa7ebff21970bf45.png)
+![](./images/a21c5ca7658e63f110eddcf8fa7ebff21970bf45.png)
 
 #### Metal(rx590)
 
-![](https://cdn.kuokuo.io/images/2022/06/10/0/ce9be6793c2396aa96eaa12438125a093db9443b.png)
+![](./images/ce9be6793c2396aa96eaa12438125a093db9443b.png)
 
 ## 截图
 
@@ -106,7 +106,7 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 如需定制, 建议使用[USBToolBox](https://github.com/USBToolBox/tool)进行USB定制
 
-![](https://cdn.kuokuo.io/images/2022/06/10/0/a7d43fea1cca89088abdb35808851100864a0780.jpeg)
+![](./images/a7d43fea1cca89088abdb35808851100864a0780.jpeg)
 
 ### BIOS配置
 
@@ -116,7 +116,7 @@ USB定制已经配置, 不需要再次定制USB, 关闭了主板后置的两个U
 
 驱动文件说明, 请参考[这里](https://github.com/maemual/MSI-B460M-10700-5500XT#%E7%AC%AC%E4%B8%89%E6%AD%A5%E6%94%B6%E9%9B%86%E9%A9%B1%E5%8A%A8%E6%96%87%E4%BB%B6)
 
-![](https://cdn.kuokuo.io/images/2022/06/10/0/de1bfa6f378a4945fdf82b187c360edab578be42.png)
+![](./images/de1bfa6f378a4945fdf82b187c360edab578be42.png)
 
 ### 配置文件
 
